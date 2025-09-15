@@ -1,0 +1,30 @@
+browser : edge
+headless : false
+baseURL : https://demoqa.com/
+elementsTextBoxURL : https://demoqa.com/text-box
+elementsCheckBoxURL : https://demoqa.com/checkbox
+elementsRadioButtonURL : https://demoqa.com/radio-button
+elementsWebTablesURL : https://demoqa.com/webtables
+elementsButtonsURL : https://demoqa.com/buttons
+elementsLinksURL : https://demoqa.com/links
+elementsBrokenLinksURL : https://demoqa.com/broken
+elementsUploadAndDownloadURL : https://demoqa.com/upload-download
+elementsDynamicPropertiesURL : https://demoqa.com/dynamic-properties
+timeout : 10
+fullName : Ajay Verma
+email : ajay@gmail.com
+currentAddress : 123 Main St
+permanentAddress : 456 Elm St
+textOfWebTable : Insurance
+filePath : C:\Ajay_Resume\Ajay_Verma_Resume.pdf
+
+newTabText : This is a sample page
+
+alertsWindow : https://demoqa.com/alertsWindows
+practiceFormURL : https://demoqa.com/automation-practice-form
+widgetsURL : https://demoqa.com/widgets
+
+explicitWait : 10
+
+dateToSelect : 10/10/2025	
+

@@ -1,0 +1,82 @@
+# README
+
+# Demo QA Automation
+
+Automation framework for [Demo QA](https://demoqa.com/) website using Selenium WebDriver, Cucumber (BDD), TestNG, and Maven.
+
+---
+
+## Project Structure
+
+
+demo-qa-automation
+├── src/main/java        # Utilities, drivers, base classes
+├── src/main/resources   # Config files (properties, log4j, etc.)
+├── src/test/java        # Step definitions, runners
+├── src/test/resources   # Feature files, test data
+├── pom.xml              # Maven dependencies & plugins
+└── README.md            # Documentation
+
+
+
+---
+
+## Tech Stack
+- Java 1.8+  
+- Selenium WebDriver  
+- Cucumber (BDD with Gherkin)  
+- TestNG  
+- Maven  
+
+---
+
+## How to Run
+---bash
+# Clone repo
+git clone https://github.com/ajayverma401/demo-qa-automation.git
+cd demo-qa-automation
+
+# Install dependencies
+mvn clean install
+
+# Run tests
+mvn test
+
+
+Reports: `test-output/index.html`
+
+---
+
+## Features
+
+* Page Object Model (POM)
+* Cucumber BDD (feature files + step defs)
+* Config-driven (URL, browser, timeout)
+* Auto screenshot on failure and at each step
+* Logging (Log4j)
+* CI/CD ready (Jenkins, GitHub Actions)
+* Cross-browser (Chrome, Firefox, Edge)
+* Data-driven (external test data support)
+* Extent Reports
+
+---
+
+## Git Ignore
+
+Excluded from repo:
+
+* target/, test-output/, logs/, screenshots/
+* IDE-specific files (.classpath, .project, .settings/, .idea/, *.iml)
+
+---
+
+## Author
+
+**Ajay Verma**
+http://linkedin.com/in/ajay-verma-automation-engineer
+
+
+
+
+
+---

@@ -1,0 +1,33 @@
+# =========================
+# Java + Maven + IDE setup
+# =========================
+
+# Eclipse specific files
+.settings/
+.project
+.classpath
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+
+# Build folders
+target/
+out/
+bin/
+
+# Test reports and outputs
+test-output/
+logs/
+screenshots/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Maven wrapper
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Others
+*.log

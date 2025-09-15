@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extent>
+    <configuration>
+        <!-- Your existing configuration was here, which is correct -->
+        <theme>dark</theme>
+        <encoding>utf-8</encoding>
+        <protocol>https</protocol>
+        <timelineEnabled>true</timelineEnabled>
+        <reportName>Ajay's Automation Dashboard</reportName>
+        <documentTitle>Execution Report</documentTitle>
+        <offlineMode>true</offlineMode>
+        <!--<thumbnailForBase64>true</thumbnailForBase64>-->
+    </configuration>
+</extent>
